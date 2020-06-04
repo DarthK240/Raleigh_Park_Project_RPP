@@ -96,7 +96,8 @@ while True:
 
 window.close()
 
-
+# This part of the code was an attempt at me trying to manually input all of the column names in the pandas DataFrame,
+# before my dad showed me how to loop through them lol. Sad mistake on my part, wasted too much time.
 '''
     attributes = pd.Series(
         [hello['NAME'], loc['y'], loc['x'], hello['ADDRESS'], hello['URL'], hello['PHONE'], hello['ARTSCENTER'], 
